@@ -19,11 +19,12 @@ body {
     background-color: var(--light);
     line-height: 1.5;
 }
-
-h2 {
-    justify-content: end;
-}
   
+img {
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
 h1,
 h2,
 h3,
@@ -92,11 +93,11 @@ main {
   
 .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("./assets/images/banner.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
-    min-height: 30vh;
+    min-height: 25vh;
     color: var(--light);
     padding: 2% 6%;
     display: flex;
