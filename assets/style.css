@@ -1,39 +1,43 @@
 * {
     box-sizing: border-box;
-  }
+}
   
   /* brand color palette */
-  :root {
+:root {
     --primary: rgba(68, 88, 119, 1);
     --secondary: rgba(146, 204, 206, 1);
     --tertiary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
-  }
+}
   
-  body {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
-  }
+}
+
+h2 {
+    justify-content: end;
+}
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
-  }
+}
   
-  p {
+p {
     margin: 0;
-  }
+}
   
-  header {
+header {
     padding: 15px 6% 15px 0;
     display: flex;
     flex-direction: row;
@@ -42,24 +46,24 @@
     align-items: center;
     background-color: var(--tertiary);
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-  }
+}
   
-  header h1 {
+header h1 {
     color: var(--tertiary);
     background-color: var(--secondary);
     padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
     line-height: 1;
-  }
+}
   
-  nav {
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
+}
   
-  nav a {
+nav a {
     text-decoration: none;
     padding: 5px 10px;
     color: var(--secondary);
@@ -70,23 +74,23 @@
     background-position: bottom;
     transition: all 0.25s ease-in;
     font-size: 1.4rem;
-  }
+}
   
-  nav a:hover {
+nav a:hover {
     background-size: 100% 100%;
     color: var(--primary);
-  }
+}
   
-  nav a:last-child {
+nav a:last-child {
     margin-right: 0;
-  }
+}
   
-  main {
+main {
     margin-top: 20px;
     margin-bottom: 45px;
-  }
+}
   
-  .hero-banner {
+.hero-banner {
     background: rgb(68, 88, 120);
     background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
@@ -99,13 +103,13 @@
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
-  }
+}
   
-  .hero-banner div {
+.hero-banner div {
     flex: 0 0 90%;
-  }
+}
   
-  .hero-banner h2 {
+.hero-banner h2 {
     background-color: var(--secondary);
     color: var(--tertiary);
     margin: 0;
@@ -113,15 +117,15 @@
     font-size: 2.3rem;
     line-height: 1.2;
     display: inline;
-  }
+}
   
-  .page-wrapper {
+.page-wrapper {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
-  .page-section {
+.page-section {
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
@@ -129,32 +133,32 @@
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-  }
+}
   
-  .page-section > h2 {
+.page-section > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
     border-right: 4px solid var(--primary);
     font-size: 4vw;
     line-height: 1.1;
-  }
+}
   
-  .page-section > div {
+.page-section > div {
     flex: 0 0 77%;
-  }
+}
   
-  .page-section p {
+.page-section p {
     margin-bottom: 20px;
-  }
+}
   
-  .flex-container {
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
   
-  .flex-item {
+.flex-item {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
@@ -170,36 +174,36 @@
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
-  }
+}
   
   /* feature first portfolio item */
-  .flex-item:first-child {
+.flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
-  }
+}
   
-  .flex-item:hover {
+.flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
-  }
+}
   
-  .flex-item div {
+.flex-item div {
     background-color: var(--secondary);
     padding: 8px 10px;
-  }
+}
   
-  .flex-item h3 {
+.flex-item h3 {
     font-size: 1.6rem;
-  }
+}
   
-  .contact address {
+.contact address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-  }
+}
   
-  .contact address a {
+.contact address a {
     color: var(--tertiary);
     padding: 5px;
     text-decoration: none;
@@ -212,39 +216,39 @@
     transition: all 0.25s ease-in;
     margin: 0 0.2rem 0.1rem;
     display: inline-block;
-  }
+}
   
-  .contact address a:hover {
+.contact address a:hover {
     background-size: 100% 88%;
     color: var(--secondary);
-  }
+}
   
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
-  .run-buddy {
+.run-buddy {
     
-  }
+}
+
+.led-wall {
+    
+}
   
-  .led-wall {
+.react-calc {
     
-  }
+}
   
-  .react-calc {
+.pastel-puzzles {
     
-  }
+}
   
-  .pastel-puzzles {
+.surf-report {
     
-  }
-  
-  .surf-report {
-    
-  }
+}
   
   /* media queries */
   
   /* media queries for a max-width of 980px */
-  @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
       justify-content: center;
