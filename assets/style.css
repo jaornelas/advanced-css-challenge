@@ -55,6 +55,7 @@ header {
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
   
+
 header h1 {
     color: var(--tertiary);
     background-color: var(--secondary);
@@ -71,11 +72,13 @@ header h1 {
     color: black;
     margin-left: 20px;
     text-align: right;
-   /* display: inline; */
+   /display: inline;
 }
 
 .content-box {
-    display:inline-flex
+    border: solid 1px black;
+    display:inline-block;
+    margin: 0;
 }
   
 nav {
@@ -129,7 +132,8 @@ main {
 .hero-banner div {
     flex: 0 0 90%;
 }
-  
+ 
+/* 
 .hero-banner h2 {
     background-color: var(--secondary);
     color: var(--tertiary);
@@ -139,13 +143,17 @@ main {
     line-height: 1.2;
     display: inline;
 }
+    */
   
+    /*
 .page-wrapper {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
+    */
   
+    /*
 .page-section {
     margin: 25px 0;
     padding: 10px 0;
@@ -154,7 +162,7 @@ main {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-}
+}   */
   
 .page-section > h2 {
     flex: 0 0 20%;
@@ -265,7 +273,8 @@ main {
 .surf-report {
     
 }
-  
+ 
+
   /* media queries */
   
   /* media queries for a max-width of 980px */
