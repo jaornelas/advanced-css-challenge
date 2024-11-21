@@ -207,6 +207,15 @@ nav a:hover {
     transition: all 0.5s;
     font-size: 0.9rem;
 }
+
+.text {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 1.6rem;
+    padding: 10px;
+    background-color: var(--secondary);
+}
   
   /* feature first portfolio item */
 .flex-item:first-child {
