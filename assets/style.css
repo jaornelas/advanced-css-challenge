@@ -72,7 +72,7 @@ header h1 {
     color: black;
     margin-left: 20px;
     text-align: right;
-   /display: inline;
+   display: inline;
 }
 
 .content-box {
@@ -133,7 +133,7 @@ main {
     flex: 0 0 90%;
 }
  
-/* 
+
 .hero-banner h2 {
     background-color: var(--secondary);
     color: var(--tertiary);
@@ -143,17 +143,15 @@ main {
     line-height: 1.2;
     display: inline;
 }
-    */
   
-    /*
+
 .page-wrapper {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
-    */
+
   
-    /*
 .page-section {
     margin: 25px 0;
     padding: 10px 0;
