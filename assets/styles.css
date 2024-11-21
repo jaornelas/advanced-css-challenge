@@ -79,7 +79,7 @@ header h1 {
 }
 
 .content-box  {
-    border-left: solid 2px black;
+    border: solid 2px black;
     height: 150px;
     width: 500px;
     display:inline;
