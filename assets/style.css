@@ -253,24 +253,23 @@ main {
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-    
+    background-image: url(./images/banner.jpg);
 }
 
 .led-wall {
-    
+    background-image: url(./images/banner.jpg);
 }
   
 .react-calc {
-    
+    background-image: url(./images/banner.jpg);
 }
   
 .pastel-puzzles {
-    
+    background-image: url(./images/banner.jpg);
 }
   
 .surf-report {
-    background-image: url(./images/banner.jpg)
-    
+    background-image: url(./images/banner.jpg);
 }
  
 
@@ -312,7 +311,34 @@ main {
   
   /* TODO: add media query for a max-width of 768px */
 @media screen and (max-width: 768px) {
-    .flex-item {
-      flex-basis: calc(100% - 1em);
-    }
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+      }
+    
+      header nav {
+        justify-content: center;
+      }
+    
+      .page-section > h2,
+      .page-section > div {
+        flex: 0 0 100%;
+      }
+    
+      .page-section > h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+      }
 }
