@@ -83,13 +83,12 @@ header h1 {
 }
 
 .content-box  {
-    border: solid 2px black;
-    height: 150px;
+    border-left: solid 2px black;
     width: 500px;
     display:inline;
     margin: 0;
-    margin-left: 30%;
-    /* padding: 200px 600px 0 0; */
+    margin-left: 20%;
+    padding: 200px 600px 0 0; */
     align-items: flex-start;
     flex-direction: row;
 
@@ -268,23 +267,28 @@ nav a:hover {
 /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-    background-image: url(./images/run\ buddy.jpeg);
+    background-image: url("https://runkeeper.com/cms/wp-content/uploads/sites/4/2021/12/ASICS_Color-Injection-Pack_Highlight_0253-scaled.jpg");
+    background-size: cover;
 }
 
 .led-wall {
-    background-image: url(./images/led-wall.webp);
+    background-image: url("https://m.media-amazon.com/images/I/61IPdpP-ijL.jpg");
+    background-size: cover;
 }
   
 .react-calc {
-    background-image: url(./images/react\ calc.jpg);
+    background-image: url("https://mycreditunion.gov/sites/default/files/styles/to_webp/public/toolkit-graphics/fin-resources_toolbox.jpg.webp?itok=pFMBvuE4");
+    background-size: cover;
 }
   
 .pastel-puzzles {
-    background-image: url(./images/banner.jpg);
+    background-image: url("https://zenpuzzles.com/wp-content/uploads/2022/04/Puzzlepieces-scaled-1-300x300.jpg");
+    background-size: cover;
 }
   
 .surf-report {
-    background-image: url(./images/banner.jpg);
+    background-image: url("https://media.istockphoto.com/id/1146037976/vector/business-metaphor-database-analysis-development.jpg?s=612x612&w=0&k=20&c=5p8UW");
+    background-size: cover;
 }
 
 
