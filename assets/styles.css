@@ -218,9 +218,10 @@ nav a:hover {
   /* feature first portfolio item */
 .flex-item:first-child {
     display: inline;
-      min-height: 400px;
-      flex-basis: 100%;
+    min-height: 400px;
+    flex-basis: 100%;
 }
+
   
 .flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -256,6 +257,7 @@ nav a:hover {
     transition: all 0.25s ease-in;
     margin: 0 0.2rem 0.1rem;
     display: inline-block;
+    text-align: center;
 }
   
 .contact address a:hover {
@@ -266,17 +268,17 @@ nav a:hover {
 /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-    background-image: url("https://runkeeper.com/cms/wp-content/uploads/sites/4/2021/12/ASICS_Color-Injection-Pack_Highlight_0253-scaled.jpg");
+    background-image: url(/assets/images/run\ buddy.jpeg);
     background-size: cover;
 }
 
 .led-wall {
-    background-image: url("https://m.media-amazon.com/images/I/61IPdpP-ijL.jpg");
+    background-image: url(./images/led-wall.webp);
     background-size: cover;
 }
   
 .react-calc {
-    background-image: url("https://mycreditunion.gov/sites/default/files/styles/to_webp/public/toolkit-graphics/fin-resources_toolbox.jpg.webp?itok=pFMBvuE4");
+    background-image: url(./images/react\ calc.jpg);
     background-size: cover;
 }
   
@@ -286,7 +288,7 @@ nav a:hover {
 }
   
 .surf-report {
-    background-image: url("https://media.istockphoto.com/id/1146037976/vector/business-metaphor-database-analysis-development.jpg?s=612x612&w=0&k=20&c=5p8UWgKi2g_Fapqv7kSI1q4BgHDnhpwt-MbwsNlwcuk=");
+    background-image: url(./images/banner.jpg);
     background-size: cover;
 }
 
