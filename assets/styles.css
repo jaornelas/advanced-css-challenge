@@ -50,7 +50,6 @@ h3{
   
 p {
     display: inline-block;
-    margin-left: 25%;
 }
   
 header {
@@ -83,7 +82,7 @@ header h1 {
 }
 
 .content-box  {
-    border-left: solid 2px black;
+    /* border-left: solid 2px black; */
     width: 500px;
     display:inline;
     margin: 0;
@@ -287,7 +286,7 @@ nav a:hover {
 }
   
 .surf-report {
-    background-image: url("https://media.istockphoto.com/id/1146037976/vector/business-metaphor-database-analysis-development.jpg?s=612x612&w=0&k=20&c=5p8UW");
+    background-image: url("https://media.istockphoto.com/id/1146037976/vector/business-metaphor-database-analysis-development.jpg?s=612x612&w=0&k=20&c=5p8UWgKi2g_Fapqv7kSI1q4BgHDnhpwt-MbwsNlwcuk=");
     background-size: cover;
 }
 
